@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+><!DOCTYPE html>
 <html lang="pt-br">
 <head> 
     <meta charset="UTF-8"> 
@@ -42,6 +42,29 @@
             display: block;
         }
 
+        article {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #0F1F32;
+        }
+
+        article h2 {
+            margin-bottom: 5px;
+        }
+
+        .post-img-side {
+            float: left;
+            width: 220px;
+            margin: 0 15px 10px 0;
+            border-radius: 8px;
+        }
+
+        .article-content::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
         .img-legenda {
             text-align: center;
             font-size: 0.85rem;
@@ -72,6 +95,22 @@
 
         <img src="craques.png" alt="Cristiano Ronaldo, Messi e Neymar posando juntos" class="post-img">
         <p class="img-legenda">Os três craques em ação — uma era que ficará marcada na história do futebol.</p>
+
+        <article>
+            <h2>Neymar nas Copas do Mundo: a trajetória do camisa 10</h2>
+            <div class="article-content">
+                <img src="neymar.png" alt="Neymar comemorando com o braço erguido, vestindo a camisa 10 da Seleção Brasileira" class="post-img-side">
+                <p>Neymar disputou quatro edições da Copa do Mundo — 2014, 2018, 2022 e 2026 — e é, atualmente, o artilheiro do elenco atual da Seleção Brasileira em Mundiais, com oito gols, ficando fora do Top 10 histórico de artilheiros da competição.</p>
+
+                <p>Sua melhor campanha foi logo na estreia, em 2014, no Brasil: marcou dois gols na vitória por 3 a 1 sobre a Croácia e mais dois na goleada por 4 a 1 sobre Camarões, somando cinco jogos e quatro gols naquele Mundial — mas sofreu uma fratura na coluna após entrada do colombiano Zúñiga e desfalcou o time antes da semifinal.</p>
+
+                <p>Em 2018, na Rússia, disputou cinco partidas, marcou dois gols e deu duas assistências, mas o Brasil parou nas quartas de final diante da Bélgica. Já em 2022, no Catar, uma lesão no tornozelo o tirou de boa parte da fase de grupos.</p>
+
+                <p>Na sua quarta e provavelmente última Copa, em 2026, Neymar já balançou as redes duas vezes, mas viu o sonho do hexacampeonato escapar: a Seleção foi eliminada após derrota por 2 a 1 para a Noruega.</p>
+
+                <p>Pela Seleção em geral, os números impressionam: são 128 partidas e o posto de maior artilheiro da história do time, superando Pelé. Somando clubes e seleção, Neymar já passou de 452 gols na carreira.</p>
+            </div>
+        </article>
     </main>
     <footer>
         <p>&copy; 2026 The Last Dance. Todos os direitos reservados.</p>
