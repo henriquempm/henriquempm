@@ -85,6 +85,7 @@
 
         <article>
             <h2>Neymar nas Copas do Mundo: a trajetória do camisa 10</h2>
+            <button>🤴🏽​<span>0</span></button>
             <img src="neymar.png" alt="Neymar de costas, exibindo o nome e o número 10 na camisa da Seleção Brasileira" class="post-img">
             <div class="article-content">
                 <p>Neymar disputou quatro edições da Copa do Mundo — 2014, 2018, 2022 e 2026 — e é, atualmente, o artilheiro do elenco atual da Seleção Brasileira em Mundiais, com oito gols, ficando fora do Top 10 histórico de artilheiros da competição.</p>
@@ -101,7 +102,7 @@
 
         <article>
             <h2>Cristiano Ronaldo nas Copas do Mundo: o recordista de seis edições</h2>
-            <button>😭​<span>0</span></button>
+            <button>🤖​​<span>0</span></button>
             <img src="Cris.png" alt="Cristiano Ronaldo comemorando gol pela Seleção de Portugal" class="post-img">
             <div class="article-content">
                 <p>Cristiano Ronaldo disputou seis edições da Copa do Mundo — 2006, 2010, 2014, 2018, 2022 e 2026 — e é o único jogador da história a marcar gols em todas essas seis participações, um recorde que nenhum outro atleta alcançou.</p>
@@ -115,10 +116,11 @@
         </article>
 
         <article>
-            <h2>Messi nas Copas do Mundo: o maior artilheiro da história do torneio</h2>
+            <h2>Messi nas Copas do Mundo: o segundo maior artilheiro da história do torneio</h2>
+            <button>👽​<span>0</span></button>
             <img src="lionel.png" alt="Lionel Messi comemorando gol pela Seleção Argentina" class="post-img">
             <div class="article-content">
-                <p>Lionel Messi disputou cinco edições da Copa do Mundo — 2006, 2010, 2014, 2018, 2022 e 2026 — e se tornou o maior artilheiro da história da competição, com 20 gols ao todo, superando o recorde que pertencia a Miroslav Klose.</p>
+                <p>Lionel Messi disputou seis edições da Copa do Mundo — 2006, 2010, 2014, 2018, 2022 e 2026 — e se tornou o segundo maior artilheiro da história da competição, com 20 gols ao todo, superando o recorde que pertencia a Miroslav Klose.</p>
 
                 <p>Sua campanha mais marcante veio no Catar, em 2022, quando marcou sete gols, incluindo dois na final contra a França, e finalmente conquistou o título mundial que faltava em sua carreira, erguendo a taça pela Argentina.</p>
 
@@ -132,4 +134,12 @@
         <p>&copy; 2026 The Last Dance. Todos os direitos reservados.</p>
     </footer>
 </body> 
+<script>
+const botao = document.querySelector("button");
+botao.addEventListener("click", botaoClicado);
+function botaoClicado() {
+let texto = botao.querySelector("span");
+texto.textContent++;
+}
+</script>
 </html>
